@@ -1,0 +1,16 @@
+nav{
+    ul{
+        height: 100vh;
+        background-color: #2D2E2E;
+        li{
+            padding:  .5rem 1rem;
+            a{
+                color: #eee;
+                .activated{
+                    color: #4d90ef;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+hr{
+    margin: 1rem;
+    border: 1px solid #ec9420;
+    
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .card{
+        background-color: #fefefe;
+        padding: 1rem;
+        flex-grow: 1;
+        flex-basis: 25%;
+        border:1px solid #d1c1c1;
+        overflow: hidden;
+        padding: 1rem;
+        margin:.5rem;
+        border-radius: .5rem;
+        h3{
+            color: #4d90ef;
+        }
+        p:first{
+            padding:.5em;
+            color:red;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<h1>Users</h1><hr>
+
+<div class="list">
+  <div *ngFor="let emp of empData$" class="card">
+      <a href="/emps/{{emp.id}}">
+        <h3>{{emp.name}}</h3>
+        <p>{{emp.username}}</p>
+        <p>{{emp.email}}</p>
+      </a>
+    </div>
+  
+</div>
